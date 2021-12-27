@@ -4,7 +4,8 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
+mongo_data
+redis-volume
 # Runtime data
 pids
 *.pid
