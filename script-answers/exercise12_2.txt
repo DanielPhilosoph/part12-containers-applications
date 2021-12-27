@@ -1,0 +1,17 @@
+docker start -i sleepy_shannon
+// -inside the container bash:  //
+mkdir user
+cd user
+mkdir src 
+cd src
+mkdir app
+cd app
+touch index.js
+exit
+// back to terminal //
+
+docker start -i sleepy_shannon 
+// -inside the container bash:  //
+apt-get update
+apt-get -y install nano
+nano /user/src/app/index.js
