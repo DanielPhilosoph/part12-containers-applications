@@ -15,3 +15,8 @@ docker start -i sleepy_shannon
 apt-get update
 apt-get -y install nano
 nano /user/src/app/index.js
+Ctrl + o // to save my work
+Ctrl + x // exit editor
+// download nodejs
+apt install -y nodejs
+
